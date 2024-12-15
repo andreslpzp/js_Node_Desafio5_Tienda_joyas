@@ -1,4 +1,4 @@
-# Joyas API REST
+# Tienda de Joyas API REST
 
 ## Descripción
 Esta es una API REST desarrollada en Node.js con Express y PostgreSQL que permite gestionar un inventario de joyas. La API incluye rutas para listar joyas con paginación, ordenar los resultados, y filtrar por diferentes atributos como precio, categoría y tipo de metal.
@@ -167,14 +167,3 @@ const logger = (req, res, next) => {
   next();
 };
 ```
-
----
-
-## Contribuir
-Si deseas contribuir a este proyecto, por favor abre un **Issue** o crea un **Pull Request** con tus sugerencias.
-
----
-
-## Licencia
-Este proyecto está bajo la licencia MIT. Puedes usarlo libremente para propósitos personales y comerciales.
-
